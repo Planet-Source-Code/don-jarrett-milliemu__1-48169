@@ -1,0 +1,45 @@
++=======================================================+
+| milliEmu for Win9x					|
+| Version 0.0.2						|
+| Written by Don Jarrett				|
+| http://home.att.net/~r.jarrett/milliEmu.html		|
+| As seen on TV!			                |
++=======================================================+
+
+Welcome to milliEmu, the Millipede Emulator in Visual 
+Basic. I wrote this emulator because PCSloMo never really
+had support for Millipede, just kind of ran it without
+playing ability. So here it is, with full source. There
+are still some problems, to be fixed in the next release.
+A Palette is included, but you will have to wait to insert
+coins. Enjoy! NOTE: DO NOT DISTRIBUTE THIS EMULATOR WITH ROMS
+OR CHANGE A LITTLE THING IN THE SOURCE AND RE-COMPILE AND CALL
+IT YOURS.
+
+What's New?
+[0.0.2]
+- Well, a changed LoadRom and LoadChr, which make it a tad
+bit faster.
+- Frame Skip, with a selection of 1, 2, and 3. 3 is automatically
+chosen at startup.
+- FPS Counter, displayed on the title bar. I get about 7 FPS with a
+frame skip of 2 on my P75. Please, e-mail me at r.jarrett@worldnet.att.net
+and tell me what kind of performance you get. Thanks!
+
+[0.0.1]
+- Initial Release
+
+ROMs Needed:
+Milliped.101-Milliped.107
+
+Controls - 
+	Ctrl - Fire
+	Up/Down/Left/Right - Directions
+	3 - Insert Coin
+	1 - Player 1 start
+
+Thanks to: Ivan Mackintosh and Tobias Strömstedt.
+
+milliEmu Copyright (C) 1999-2003 Don Jarrett
+M6502 Core Copyright (C) 1997-2003 Don Jarrett and Tobias
+Strömstedt.
